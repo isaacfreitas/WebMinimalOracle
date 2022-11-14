@@ -8,7 +8,7 @@ namespace WebMinimalOracle.Config
         public Contexto(DbContextOptions<Contexto> options) : base(options)
         {
             //usar só em teste
-            // Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
 
         public DbSet<Produto> Produto { get; set; }
